@@ -20,7 +20,8 @@
         h1 {
             text-align: center;
             color: #333;
-            font-size: 40px;
+            font-size: 45px;
+            text-shadow: black 0.2em 0.2em 0.5em;
         }
 
         form {
@@ -37,7 +38,7 @@
         }
 
         label {
-            font-size: 18px;
+            font-size: 20px;
             color: #333;
         }
 
@@ -97,7 +98,7 @@
 
         .center {
             text-align: center;
-            font-size: 28px;
+            font-size: 30px;
             color: red;
         }
     </style>
@@ -132,12 +133,12 @@
             echo "</table>";
         } else {
             // Si la valeur est négative, afficher un message d'erreur
-            echo "<p class='center'>Veuillez entrer un nombre positif.</p>";
+            echo "<p class='center'>Veuillez entrer un nombre POSITIF.</p>";
         }
     } else {
         // Si aucun paramètre valide n'est passé dans l'URL
         if (isset($_GET['table'])) {
-            echo "<p class='center' >Veuillez entrer un nombre valide.</p>";
+            echo "<p class='center' >Veuillez entrer un nombre et non des lettres</p>";
         }
     }
     ?>
