@@ -112,7 +112,7 @@
     </form>
 
     <?php
-    // Récupérer le paramètre "table" de l'url
+    // Vérifie si un paramètre table est présent dans l'URL et s'il est numérique.
     if (!empty($_GET['table']) && is_numeric($_GET['table'])) {
         $table = $_GET['table'];
 
