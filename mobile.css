@@ -1,0 +1,41 @@
+@media (max-width: 700px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    button {
+        margin-top: 30px;
+        width: 80%;
+        margin-left: 38px;
+    }
+
+    h2 {
+        font-size: 37px;
+    }
+
+    table {
+        width: 75%;
+        margin: 20px auto;
+        border-collapse: collapse;
+        border: 2px solid #ddd;
+    }
+
+
+    .formulaire {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    label {
+        font-size: 35px;
+        padding-bottom: 20px;
+    }
+
+    .input {
+        width: 60%;
+        justify-content: center;
+        margin-left: 67px;
+    }
+}
